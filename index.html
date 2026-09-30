@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Space Mission Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#">ORBITAL // COMMAND</a>
+
+        <nav class="main-nav">
+            <a href="#mission">Mission</a>
+            <a href="#crew">Crew</a>
+            <a href="#systems">Systems</a>
+            <a href="#comms">Comms</a>
+        </nav>
+    </header>
+
+    <main class="page-shell">
+        <section class="hero" id="mission">
+            <div class="hero-copy">
+                <p class="eyebrow">MISSION MC-27</p>
+                <h1>DEEP SPACE MISSION CONTROL</h1>
+                <p class="lead">
+                    Tracking the research vessel Horizon as it approaches the Kepler-186 system.
+                </p>
+                <div class="hero-actions">
+                    <a class="button primary" href="#systems">View Systems</a>
+                    <a class="button" href="#crew">Meet Crew</a>
+                </div>
+            </div>
+
+            <div class="mission-orbit" aria-label="Mission destination graphic">
+                <div class="planet"></div>
+                <div class="orbit-ring"></div>
+                <div class="ship">H-27</div>
+            </div>
+        </section>
+        
+        <section class="stats" aria-label="Mission statistics">
+            <article class="stat-card">
+                <span>Distance</span>
+                <strong>4.2 LY</strong>
+            </article>
+            <article class="stat-card">
+                <span>Mission Day</span>
+                <strong>184</strong>
+            </article>
+            <article class="stat-card">
+                <span>Velocity</span>
+                <strong>28,400 KM/H</strong>
+            </article>
+        </section>
+
+        <section class="dashboard" id="systems">
+            <article class="panel mission-panel">
+                <p class="eyebrow">PRIMARY OBJECTIVE</p>
+                <h2>Kepler Survey</h2>
+                <p>
+                    Map atmospheric conditions, collect orbital readings, and transmit findings to Mission Control.
+                    </p>
+                    <div class="progress">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <small>Mission progress: 68%</small>
+            </article>
+
+            <article class="panel systems-panel">
+                <p class="eyebrow">SYSTEM STATUS</p>
+                <h2>All Systems Nominal</h2>
+                <ul class="system-list">
+                    <li><span>Navigation</span><strong>ONLINE</strong></li>
+                    <li><span>Life Support</span><strong>ONLINE</strong></li>
+                    <li><span>Propulsion</span><strong>ONLINE</strong></li>
+                    <li><span>Communications</span><strong>ONLINE</strong></li>
+                </ul>
+            </article>
+
+            <article class="panel comms-panel" id="comms">
+                <p class="eyebrow">LATEST TRANSMISSION</p>
+                <h2>Horizon -> Earth</h2>
+                <blockquote>
+                    "Approach is table. Beginning long-range atmospheric scan."
+                </blockquote>
+                <p class="timestamp">Recieved 08:42 UTC</p>
+            </article>
+        </section>
+
+        <section class="crew-section" id="crew">
+            <div class="section-heading">
+                <p class="eyebrow">FLIGHT CREW</p>
+                <h2>Horizon Team</h2>
+            </div>
+
+            <div class="crew-grid">
+                <article class="crew-card">
+                    <div class="avatar">AR</div>
+                    <h3>Alex Rivera</h3>
+                    <p>Mission Commander</p>
+                </article>
+                <article class="crew-card">
+                    <div class="avatar">MK</div>
+                    <h3>Morgan Kim</h3>
+                    <p>Flight Engineer</p>
+                </article>
+                <article class="crew-card">
+                    <div class="avatar">JT</div>
+                    <h3>Jordan Taylor</h3>
+                    <p>Science officer</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>ORBITAL COMMAND // Mission MC-27</p>
+        <p>Student Portfolio Project</p>
+    </footer>
+</body>
+</html>
